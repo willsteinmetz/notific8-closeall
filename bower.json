@@ -1,0 +1,26 @@
+{
+  "name": "notific8-closeall",
+  "homepage": "https://github.com/willsteinmetz/notific8-closeall",
+  "authors": [
+    "Will Steinmetz <willsteinmetz@users.noreply.github.com>"
+  ],
+  "description": "Close all module for notific8",
+  "main": "dist/notific8-closeall.js",
+  "keywords": [
+    "javascript",
+    "notific8",
+    "sass",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "notific8": "^3.6.0"
+  }
+}

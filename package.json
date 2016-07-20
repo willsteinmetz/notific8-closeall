@@ -1,0 +1,25 @@
+{
+  "name": "notific8-closeall",
+  "version": "1.0.0",
+  "description": "Close all module for notific8",
+  "main": "dist/notific8-closeall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willsteinmetz/notific8-closeall.git"
+  },
+  "keywords": [
+    "javascript",
+    "notifc8",
+    "sass",
+    "css"
+  ],
+  "author": "Will Steinmetz <willsteinmetz@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willsteinmetz/notific8-closeall/issues"
+  },
+  "homepage": "https://github.com/willsteinmetz/notific8-closeall#readme"
+}
