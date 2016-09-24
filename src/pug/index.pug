@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    title notific8 demo
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css")
+    link(rel='stylesheet', href='./bower_components/notific8/dist/notific8.css', media='screen')
+    link(rel='stylesheet', href='./dist/notific8-closeall.css', media='screen')
+
+  body
+    .container
+      include demo.pug
+
+    //- script includes
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js")
+    script(src='./bower_components/notific8/dist/notific8.js')
+    script(src='./bower_components/notific8/dist/jquery.notific8.js')
+    script(src='./dist/notific8-closeall.js')
+
+    script(type='text/javascript').
+      $(document).ready(function() {
+        $('select').material_select();
+      });
+
+    include demo-js.pug

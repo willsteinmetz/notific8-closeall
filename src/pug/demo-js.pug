@@ -1,0 +1,50 @@
+extends ../../bower_components/notific8/src/pug/demo-js.pug
+
+block moduleJs
+  script(type='text/javascript').
+    $(function() {
+      window.notific8ModuleOptions = {};
+      notific8CloseAllThemeColors = {
+        legacy: [],
+        chicchat: [],
+        atomic: [],
+        materialish: []
+      };
+
+      // update the theme color lists
+      $('#notific8CloseAllColor').find('option').each(function(index, item) {
+        var $item = $(item);
+        notific8CloseAllThemeColors[$item.data('for')].push($item.val());
+      });
+
+      $('input[name="notific8CloseAll"]').on('change', function(event) {
+        var $target = $(this);
+
+        notific8('config', {
+          closeAll: $target.is(':checked'),
+          closeAllTheme: $('#notific8CloseAllTheme').val(),
+          closeAllColor: $('#notific8CloseAllColor').val(),
+          closeAllText: $('#notific8CloseAllText').val()
+        })
+      });
+
+      $('body').on(
+        'change',
+        '#notific8CloseAllTheme',
+        function(event) {
+          $theme = $(event.currentTarget);
+          var theme = $theme.val();
+          $color = $('#notific8CloseAllColor');
+          $color.find('option').each(function(index, item) {
+            $(item).remove();
+          });
+          for (var i in notific8CloseAllThemeColors[theme]) {
+            if (notific8CloseAllThemeColors[theme].hasOwnProperty(i)) {
+              var color = notific8CloseAllThemeColors[theme][i];
+              $color.append($('<option value="' + color + '">' + color + '</option>'));
+            }
+          }
+          $color.material_select();
+        }
+      );
+    });

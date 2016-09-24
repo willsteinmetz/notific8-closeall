@@ -22,6 +22,6 @@
     "tests"
   ],
   "devDependencies": {
-    "notific8": "^3.6.0"
+    "notific8": "^3.7.0"
   }
 }

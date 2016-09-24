@@ -9,7 +9,7 @@
 module.exports = {
   release: {
     files: {
-      'demo/index.html': 'src/pug/index.pug'
+      'index.html': 'src/pug/index.pug'
     }
   }
 };
