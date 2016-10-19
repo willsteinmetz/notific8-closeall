@@ -1,1 +1,14 @@
-{"name":"notific8-closeall","version":"1.0.1","homepage":"https://github.com/willsteinmetz/notific8-closeall#readme","authors":["Will Steinmetz <willsteinmetz@users.noreply.github.com>"],"description":"Close all module for notific8","main":"dist/notific8-closeall.js","keywords":["javascript","notifc8","sass","css"],"license":"BSD-3-Clause","ignore":["**/.*","node_modules","bower_components","test","tests"],"devDependencies":{"notific8":"^3.7.0"}}
+{
+    "name": "notific8-closeall",
+    "version": "1.1.0",
+    "homepage": "https://github.com/willsteinmetz/notific8-closeall#readme",
+    "authors": ["Will Steinmetz <willsteinmetz@users.noreply.github.com>"],
+    "description": "Close all module for notific8",
+    "main": "dist/notific8-closeall.js",
+    "keywords": ["javascript", "notifc8", "sass", "css"],
+    "license": "BSD-3-Clause",
+    "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
+    "devDependencies": {
+        "notific8": "^4.2.0"
+    }
+}

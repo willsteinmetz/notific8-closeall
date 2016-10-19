@@ -1,6 +1,6 @@
 {
   "name": "notific8-closeall",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Close all module for notific8",
   "main": "dist/notific8-closeall.js",
   "scripts": {

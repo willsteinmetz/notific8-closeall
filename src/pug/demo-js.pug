@@ -5,7 +5,7 @@ block moduleJs
     $(function() {
       window.notific8ModuleOptions = {};
       notific8CloseAllThemeColors = {
-        legacy: [],
+        ocho: [],
         chicchat: [],
         atomic: [],
         materialish: []
@@ -47,4 +47,10 @@ block moduleJs
           $color.material_select();
         }
       );
+
+      $('body').on('click', '#notific8Test', function (event) {
+        $('#notific8CloseAllTheme').prop('disabled', true);
+        $('#notific8CloseAllColor').prop('disabled', true);
+        $('#notific8CloseAll').prop('disabled', true);
+      });
     });

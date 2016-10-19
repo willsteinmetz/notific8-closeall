@@ -6,11 +6,11 @@
 		"../bower_components/notific8/src/sass/_variables.scss",
 		"../bower_components/notific8/src/sass/_mixins.scss",
 		"../src/sass/_notific8.scss",
-		"../src/sass/_legacy_theme.scss",
+		"../src/sass/_ocho_theme.scss",
 		"../src/sass/_atomic_theme.scss",
 		"../src/sass/_chicchat_theme.scss",
 		"../src/sass/_materialish_theme.scss",
-		"../src/sass/_default_legacy_colors.scss",
+		"../src/sass/_default_ocho_colors.scss",
 		"../src/sass/_default_atomic_colors.scss",
 		"../src/sass/_default_chicchat_colors.scss",
 		"../src/sass/_default_materialish_colors.scss"
