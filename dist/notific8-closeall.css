@@ -19,22 +19,22 @@
 .notific8-closeall.bottom .notific8-closeall-button {
   position: absolute; }
 
-.notific8-closeall .notific8-closeall-button.legacy {
+.notific8-closeall .notific8-closeall-button.ocho {
   padding: 0.5em 1em;
   min-width: 24.375em;
   transition: all .15s ease-in-out;
   width: 100%; }
 
-.notific8-closeall.top .notific8-closeall-button.legacy {
+.notific8-closeall.top .notific8-closeall-button.ocho {
   bottom: -3em; }
 
-.notific8-closeall.bottom .notific8-closeall-button.legacy {
+.notific8-closeall.bottom .notific8-closeall-button.ocho {
   top: -3em; }
 
-.notific8-closeall.right .notific8-closeall-button.legacy {
+.notific8-closeall.right .notific8-closeall-button.ocho {
   right: 0; }
 
-.notific8-closeall.left .notific8-closeall-button.legacy {
+.notific8-closeall.left .notific8-closeall-button.ocho {
   left: 0; }
 
 .notific8-closeall .notific8-closeall-button.atomic {
@@ -100,67 +100,67 @@
 .notific8-closeall.left .notific8-closeall-button.materialish {
   left: 0; }
 
-.notific8-closeall-button.legacy.teal {
+.notific8-closeall-button.ocho.teal {
   background-color: rgba(0, 102, 153, 0.85);
   border: solid 2px rgba(0, 153, 204, 0.85);
   color: #fff; }
-  .notific8-closeall-button.legacy.teal:hover {
+  .notific8-closeall-button.ocho.teal:hover {
     background-color: #069;
     border: solid 2px #09c; }
 
-.notific8-closeall-button.legacy.amethyst {
+.notific8-closeall-button.ocho.amethyst {
   background-color: rgba(93, 45, 119, 0.85);
   border: solid 2px rgba(145, 95, 170, 0.85);
   color: #fff; }
-  .notific8-closeall-button.legacy.amethyst:hover {
+  .notific8-closeall-button.ocho.amethyst:hover {
     background-color: #5D2D77;
     border: solid 2px #915faa; }
 
-.notific8-closeall-button.legacy.ruby {
+.notific8-closeall-button.ocho.ruby {
   background-color: rgba(170, 17, 0, 0.85);
   border: solid 2px rgba(221, 17, 0, 0.85);
   color: #fff; }
-  .notific8-closeall-button.legacy.ruby:hover {
+  .notific8-closeall-button.ocho.ruby:hover {
     background-color: #a10;
     border: solid 2px #d10; }
 
-.notific8-closeall-button.legacy.tangerine {
+.notific8-closeall-button.ocho.tangerine {
   background-color: rgba(232, 143, 0, 0.85);
   border: solid 2px rgba(255, 178, 63, 0.85);
   color: #fff; }
-  .notific8-closeall-button.legacy.tangerine:hover {
+  .notific8-closeall-button.ocho.tangerine:hover {
     background-color: #e88f00;
     border: solid 2px #ffb23f; }
 
-.notific8-closeall-button.legacy.lemon {
+.notific8-closeall-button.ocho.lemon {
   background-color: rgba(255, 204, 0, 0.85);
   border: solid 2px rgba(255, 222, 0, 0.85);
   color: #333; }
-  .notific8-closeall-button.legacy.lemon:hover {
+  .notific8-closeall-button.ocho.lemon:hover {
     background-color: #ffcc00;
     border: solid 2px #ffde00; }
 
-.notific8-closeall-button.legacy.lime {
+.notific8-closeall-button.ocho.lime {
   background-color: rgba(50, 181, 18, 0.85);
   border: solid 2px rgba(56, 211, 21, 0.85);
   color: #fff; }
-  .notific8-closeall-button.legacy.lime:hover {
+  .notific8-closeall-button.ocho.lime:hover {
     background-color: #32b512;
     border: solid 2px #38d315; }
 
-.notific8-closeall-button.legacy.ebony {
+.notific8-closeall-button.ocho.ebony {
   background-color: rgba(18, 18, 18, 0.85);
   border: solid 2px rgba(102, 102, 102, 0.85);
   color: #fff; }
-  .notific8-closeall-button.legacy.ebony:hover {
+  .notific8-closeall-button.ocho.ebony:hover {
     background-color: #121212;
     border: solid 2px #666; }
 
-.notific8-closeall-button.legacy.smoke {
+.notific8-closeall-button.ocho.smoke {
   background-color: rgba(239, 239, 239, 0.85);
   border: solid 2px rgba(171, 171, 171, 0.85);
   color: #333; }
-  .notific8-closeall-button.legacy.smoke:hover {
+  .notific8-closeall-button.ocho.smoke:hover {
     background-color: #efefef;
     border: solid 2px #ababab; }
 

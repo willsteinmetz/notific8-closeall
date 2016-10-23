@@ -3,6 +3,8 @@ node_js:
   - "node"
   - "5"
   - "5.1"
+  - "6"
+  - "6.1"
 before_script:
   - npm install -g bower
   - bower install

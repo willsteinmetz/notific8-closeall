@@ -9,6 +9,6 @@
     "license": "BSD-3-Clause",
     "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
     "devDependencies": {
-        "notific8": "^4.2.0"
+        "notific8": "^4.2.1"
     }
 }

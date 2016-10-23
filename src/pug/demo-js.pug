@@ -49,8 +49,8 @@ block moduleJs
       );
 
       $('body').on('click', '#notific8Test', function (event) {
-        $('#notific8CloseAllTheme').prop('disabled', true);
-        $('#notific8CloseAllColor').prop('disabled', true);
+        $('#notific8CloseAllColor').prop('disabled', true).material_select('disabled');
+        $('#notific8CloseAllTheme').prop('disabled', true).material_select('disabled');
         $('#notific8CloseAll').prop('disabled', true);
       });
     });

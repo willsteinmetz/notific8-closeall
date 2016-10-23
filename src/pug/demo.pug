@@ -4,50 +4,52 @@ block notific8DemoTitle
   h1 notific8 demo - closeall module
 
 block upperConfig
-  .input-field
-    label(for='notific8CloseAllText') Close All Text - <i>provided by module (default, only value available for the demo)</i>
-    input#notific8CloseAllText(type='text', value='Close All', name='notific8CloseAllText', disabled='')
-  .input-field
-    select#notific8CloseAllTheme(name='notific8CloseAllTheme')
-      option(value='ocho', selected='') Ocho (default)
-      option(value='chicchat') ChicChat
-      option(value='atomic') Atomic
-      option(value='materialish') Materialish
-    label(for='notific8CloseAllTheme') Close All Theme
-  .input-field
-    select#notific8CloseAllColor(name='notific8CloseAllColor')
-      option(value='teal', data-for='ocho', data-selected='') teal
-      option(value='amethyst', data-for='ocho') amethyst
-      option(value='ruby', data-for='ocho') ruby
-      option(value='tangerine', data-for='ocho') tangerine
-      option(value='lemon', data-for='ocho') lemon
-      option(value='lime', data-for='ocho') lime
-      option(value='ebony', data-for='ocho') ebony
-      option(value='smoke', data-for='ocho') smoke
-      option(value='cobalt', data-for='chicchat', data-selected='') cobalt
-      option(value='ruby', data-for='chicchat') ruby
-      option(value='honey', data-for='chicchat') honey
-      option(value='shamrock', data-for='chicchat') shamrock
-      option(value='amethyst', data-for='atomic', data-selected='') amethyst
-      option(value='cerulean', data-for='atomic') cerulean
-      option(value='mustard', data-for='atomic') mustard
-      option(value='onyx', data-for='atomic') onyx
-      option(value='pear', data-for='atomic') pear
-      option(value='tomato', data-for='atomic') tomato
-      option(value='twilight', data-for='materialish', data-selected='') twilight
-      option(value='lilrobot', data-for='materialish') lilrobot
-      option(value='cupcake', data-for='materialish') cupcake
-      option(value='eclair', data-for='materialish') eclair
-      option(value='honeycomb', data-for='materialish') honeycomb
-      option(value='lollypop', data-for='materialish') lollypop
-      option(value='marshmallow', data-for='materialish') marshmallow
-      option(value='strawberry', data-for='materialish') strawberry
-      option(value='creamsicle', data-for='materialish') creamsicle
-      option(value='purple-rain', data-for='materialish') purple-rain
-      option(value='peafowl', data-for='materialish') peafowl
-    label(for='notific8CloseAllColor') Close All Color
-  .input-field
-    input#notific8CloseAll(name='notific8CloseAll', type='checkbox')
-    label(for='notific8CloseAll') Close All - <i>provided by module (options from above are used)</i>
-  p Note: The close all module settings are only set in the first notification call
-  br
+  fieldset
+    legend Close All module settings
+    .input-field
+      label(for='notific8CloseAllText') Close All Text - <i>(default, only value available for the demo)</i>
+      input#notific8CloseAllText(type='text', value='Close All', name='notific8CloseAllText', disabled='')
+    .input-field
+      select#notific8CloseAllTheme(name='notific8CloseAllTheme')
+        option(value='ocho', selected='') Ocho (default)
+        option(value='chicchat') ChicChat
+        option(value='atomic') Atomic
+        option(value='materialish') Materialish
+      label(for='notific8CloseAllTheme') Close All Theme
+    .input-field
+      select#notific8CloseAllColor(name='notific8CloseAllColor')
+        option(value='teal', data-for='ocho', data-selected='') teal
+        option(value='amethyst', data-for='ocho') amethyst
+        option(value='ruby', data-for='ocho') ruby
+        option(value='tangerine', data-for='ocho') tangerine
+        option(value='lemon', data-for='ocho') lemon
+        option(value='lime', data-for='ocho') lime
+        option(value='ebony', data-for='ocho') ebony
+        option(value='smoke', data-for='ocho') smoke
+        option(value='cobalt', data-for='chicchat', data-selected='') cobalt
+        option(value='ruby', data-for='chicchat') ruby
+        option(value='honey', data-for='chicchat') honey
+        option(value='shamrock', data-for='chicchat') shamrock
+        option(value='amethyst', data-for='atomic', data-selected='') amethyst
+        option(value='cerulean', data-for='atomic') cerulean
+        option(value='mustard', data-for='atomic') mustard
+        option(value='onyx', data-for='atomic') onyx
+        option(value='pear', data-for='atomic') pear
+        option(value='tomato', data-for='atomic') tomato
+        option(value='twilight', data-for='materialish', data-selected='') twilight
+        option(value='lilrobot', data-for='materialish') lilrobot
+        option(value='cupcake', data-for='materialish') cupcake
+        option(value='eclair', data-for='materialish') eclair
+        option(value='honeycomb', data-for='materialish') honeycomb
+        option(value='lollypop', data-for='materialish') lollypop
+        option(value='marshmallow', data-for='materialish') marshmallow
+        option(value='strawberry', data-for='materialish') strawberry
+        option(value='creamsicle', data-for='materialish') creamsicle
+        option(value='purple-rain', data-for='materialish') purple-rain
+        option(value='peafowl', data-for='materialish') peafowl
+      label(for='notific8CloseAllColor') Close All Color
+    .input-field
+      input#notific8CloseAll(name='notific8CloseAll', type='checkbox')
+      label(for='notific8CloseAll') Close All - <i>(options from above are used)</i>
+    p Note: The close all module settings are only set in the first notification call
+    br
